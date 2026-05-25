@@ -1,0 +1,95 @@
+.vehiculo-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s, box-shodow 0.2S;
+    display: flex;
+    flex-direction: column;
+}
+
+.vehiculo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.vehiculo-card-header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vehiculo-card-header h3 {
+    font-size: 1.15rem;
+}
+
+.estado-badge {
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.estado-disponible {
+    background-color: #27ae60;
+    color: white;
+}
+
+.estado-no-displonible {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.estado-mantenimiento {
+    background-color: #f39c12;
+    color: white;
+}
+
+.vehiculo-card-body {
+    padding: 1.25rem;
+    flex-grow: 1;
+}
+
+.vehiculo-card-body p {
+    margin: 0.4rem 0;
+    color: #555;
+}
+
+.precio {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    color: #2c3e50 !important;
+    margin-top: 1rem !important;
+}
+
+.precio span {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: #95a5a6;
+}
+
+.vehiculo-card-footer {
+    padding: 1rem 1.25rem;
+    border-top: 1px solid #ecf0f1;
+}
+
+.btn-detalle {
+    display: block;
+    background: #3498db;
+    color: white;
+    padding: 0.65rem;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn-detalle:hover {
+    background: #2980b9;
+}

@@ -1,0 +1,20 @@
+.subtitulo {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.grid-vehiculos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.sin-resultados {
+    text-align: center;
+    padding: 3rem;
+    color: #95a5a6;
+    background: white;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,125 @@
+.btn-volver {
+    background: none;
+    border: 1px solid #bdc3c7;
+    color: #2c3e50;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+
+.btn-volver:hover {
+    background: #ecf0f1;
+}
+
+.detalle-vehiculo {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+.detalle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    border-bottom: 1px solid #ecf9f1;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.detalle-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.matricula-grande {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.estado-badge-grande {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.estado-disponible {
+    background: #27ae60;
+    color: white;
+}
+
+.estado-no-disponible {
+    background: #e74c3c;
+    color: white;
+}
+
+.estado-mantenimiento {
+    background: #f39c12;
+    color: white;
+}
+
+.detalle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.detalle-item {
+    background: #f8f9fa;
+    padding: 1.25rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.detalle-item.destacado {
+    background: #ebf5fb;
+    border: 1px solid #aed6f1;
+}
+
+.detalle-label {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.detalle-valor {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.precio-grande {
+    font-size: 1.75rem !important;
+    color: #2980b9 !important;
+}
+
+.cta-alquilar {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn-alquilar {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 0.85rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn-alquilar:hover {
+    background: #229954;
+}

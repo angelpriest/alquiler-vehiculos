@@ -1,0 +1,103 @@
+.gestion-vehiculos h2 {
+    margin-bottom: 1.5rem;
+}
+
+.tabla-wrapper {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.tabla-vehiculos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-vehiculos thead {
+    background: #2c3e50;
+    color: white;
+}
+
+.tabla-vehiculos th,
+.tabla-vehiculos td {
+    padding: 0.85rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.tabla-vehiculos tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla-vehiculos tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.matricula-cell {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.mini-badge {
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.mini-disponible {
+    background-color: #d4efdf;
+    color: #1e6e3a;
+}
+
+.mini-no-disponible {
+    background-color: #fadbd8;
+    color: #922b21;
+}
+
+.mini-en-mantenimiento {
+    background-color: #fdedb0;
+    color: #7d6608;
+}
+
+.acciones {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.acciones select {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.btn-eliminar {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.85rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-eliminar:hover:not(:disabled) {
+    background: #c0392b;
+}
+
+.btn-eliminar:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.sin-vehiculos {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+}
